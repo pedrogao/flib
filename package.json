@@ -1,0 +1,14 @@
+{
+  "name": "flib",
+  "version": "1.0.0",
+  "description": "frontend libraries which pedro make",
+  "scripts": {
+    "test:demo": "pnpm -F demo test",
+    "test:utils": "pnpm -F @flib/utils test"
+  },
+  "keywords": [
+    "flib"
+  ],
+  "author": "pedrogao",
+  "license": "MIT"
+}

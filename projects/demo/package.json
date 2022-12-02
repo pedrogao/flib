@@ -1,0 +1,25 @@
+{
+  "name": "demo",
+  "version": "1.0.0",
+  "description": "just a demo",
+  "main": "main.ts",
+  "scripts": {
+    "test": "ts-node main.ts"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": "pedrogao",
+  "license": "MIT",
+  "dependencies": {
+    "@flib/utils": "workspace:^1.0.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.3"
+  },
+  "devDependencies": {
+    "@jest/globals": "^29.3.1",
+    "@types/node": "^18.11.10",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.3"
+  }
+}
