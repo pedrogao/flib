@@ -1,5 +1,5 @@
 import { describe, expect, test } from "@jest/globals";
-import { isFalsey } from "../index";
+import { isFalsey } from "../check";
 
 describe("isFalsey", () => {
   test("null", () => {
