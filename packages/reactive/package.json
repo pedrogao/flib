@@ -1,16 +1,17 @@
 {
   "name": "@flib/reactive",
   "version": "1.0.0",
-  "description": "",
+  "description": "reactive library",
   "main": "index.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "pedrogao",
   "license": "MIT",
   "dependencies": {
-    "typescript": "^4.9.3"
+    "typescript": "^4.9.3",
+    "@flib/utils": "workspace:^1.0.0"
   },
   "devDependencies": {
     "@jest/globals": "^29.3.1",

@@ -4,7 +4,8 @@
   "description": "frontend libraries which pedro make",
   "scripts": {
     "test:demo": "pnpm -F demo test",
-    "test:utils": "pnpm -F @flib/utils test"
+    "test:utils": "pnpm -F @flib/utils test",
+    "test:reactive": "pnpm -F @flib/reactive test"
   },
   "keywords": [
     "flib"
