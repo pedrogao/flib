@@ -1,7 +1,7 @@
 {
   "name": "@flib/compiler",
   "version": "1.0.0",
-  "description": "",
+  "description": "compiler for vue & react",
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,7 @@
   "author": "pedrogao",
   "license": "MIT",
   "dependencies": {
+    "@flib/utils": "workspace:^1.0.0",
     "typescript": "^4.9.3"
   },
   "devDependencies": {
