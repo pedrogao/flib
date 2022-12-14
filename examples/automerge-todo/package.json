@@ -1,0 +1,24 @@
+{
+  "name": "automerge-todo",
+  "version": "1.0.0",
+  "description": "automerge todo",
+  "main": "main.js",
+  "scripts": {
+    "serve": "webpack serve"
+  },
+  "keywords": [
+    "automerge",
+    "todo"
+  ],
+  "author": "pedrogao",
+  "license": "MIT",
+  "dependencies": {
+    "@automerge/automerge": "2.0.1-alpha.2",
+    "localforage": "^1.10.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
